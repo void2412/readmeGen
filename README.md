@@ -22,7 +22,7 @@
   "npm i" or "npm install"
 
   ## Usage
-  Run the "index.js" file using node (Nodejs) and answer the prompt.
+  [https://drive.google.com/file/d/15yaQY6zCSrRZqYplNZB0TTO3-7XWhSr6/view](https://drive.google.com/file/d/15yaQY6zCSrRZqYplNZB0TTO3-7XWhSr6/view)
 
   ## License
 ```
