@@ -1,8 +1,8 @@
 # demo project
-  ![License](https://img.shields.io/badge/license-APACHE%202.0-blue)
+  ![License](https://img.shields.io/badge/license-BSD%203-blue)
   
   ## Description
-  this is a demo project
+  demo description
 
   ## Table of Contents
   
@@ -22,11 +22,11 @@
   npm i
 
   ## Usage
-  No usage on this project, this is just a demo project
+  node index.js
 
   ## License
 ```
-This project is licensed under APACHE 2.0 license.
+This project is licensed under BSD 3 license.
 ```
   
   ## Contributing
