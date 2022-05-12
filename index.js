@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs')
 const inquirer = require('inquirer')
+const generateMarkdown = require('./utils/generateMarkdown.js')
 // TODO: Create an array of questions for user input
 const questions = ['Github Username', 'Email', 'Project title: ', 'Description: ', 'License: ', 'Installation Instructions: ', 'Usage Info: ', 'Test Instructions: ', 'Contribution Guideline:'];
 
@@ -60,6 +61,10 @@ function init() {
 			message: questions[8]
 		}
 	]).then((data) => {
+		console.log('Generating README ...')
+		markdownData = generateMarkdown()
+		console.log(`Successfully generate markdown data.
+		Generating README file ...`)
 		
 	})
 }
