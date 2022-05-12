@@ -22,7 +22,7 @@
   "npm i" or "npm install"
 
   ## Usage
-  [https://drive.google.com/file/d/15yaQY6zCSrRZqYplNZB0TTO3-7XWhSr6/view](https://drive.google.com/file/d/15yaQY6zCSrRZqYplNZB0TTO3-7XWhSr6/view)
+  [Usage Video](https://drive.google.com/file/d/1Rg0kNxK96zhKFW1Yo1X9faDXmtjSDfyz/view)
 
   ## License
 ```
