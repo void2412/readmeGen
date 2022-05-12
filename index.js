@@ -3,7 +3,7 @@ const fs = require('fs')
 const inquirer = require('inquirer')
 const generateMarkdown = require('./utils/generateMarkdown.js')
 // TODO: Create an array of questions for user input
-const questions = ['Github Username', 'Email', 'Project title: ', 'Description: ', 'License: ', 'Installation Instructions: ', 'Usage Info: ', 'Test Instructions: ', 'Contribution Guideline:'];
+const questions = ['Github Username: ', 'Email: ', 'Project title: ', 'Description: ', 'License: ', 'Installation Instructions: ', 'Usage Info: ', 'Test Instructions: ', 'Contribution Guideline: '];
 
 
 // TODO: Create a function to write README file
