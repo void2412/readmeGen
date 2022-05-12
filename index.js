@@ -7,7 +7,10 @@ const questions = ['Github Username', 'Email', 'Project title: ', 'Description: 
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+	fileName = fileName + '.md'
+	fs.writeFile(fileName, data, (err) => err ? console.error(err) : console.log(`Successfully wrote to file ${fileName}`));
+}
 
 // TODO: Create a function to initialize app
 function init() {
@@ -59,13 +62,20 @@ function init() {
 			type: 'input',
 			name: 'projectContributing',
 			message: questions[8]
+		},
+		{
+			type: 'input',
+			name: 'filename',
+			message: 'What is the name of the markdown file?',
+			default: 'README'
 		}
 	]).then((data) => {
 		console.log('Generating README ...')
-		markdownData = generateMarkdown()
+		markdownData = generateMarkdown(data)
 		console.log(`Successfully generate markdown data.
 		Generating README file ...`)
-		
+		writeToFile(data.filename, markdownData)
+
 	})
 }
 
